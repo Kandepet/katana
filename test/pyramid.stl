@@ -1,0 +1,44 @@
+solid SimplePyramid
+ facet normal 0 0 -1
+  outer loop
+  vertex 0 0 0
+  vertex 7 -5 0
+  vertex 0 -5 0
+  endloop
+ endfacet
+ facet normal 0 0 -1
+  outer loop
+  vertex 0 0 0
+  vertex 7 0 0
+  vertex 7 -5 0
+  endloop
+ endfacet
+ facet normal -0.943858 0 0.33035
+  outer loop
+  vertex 0 0 0
+  vertex 0 -5 0
+  vertex 3.5 -2.5 10
+  endloop
+ endfacet
+ facet normal 0 0.970143 0.242536
+  outer loop
+  vertex 0 0 0
+  vertex 3.5 -2.5 10
+  vertex 7 0 0
+  endloop
+ endfacet
+ facet normal 0 -0.970143 0.242536
+  outer loop
+  vertex 0 -5 0
+  vertex 7 -5 0
+  vertex 3.5 -2.5 10
+  endloop
+ endfacet
+ facet normal 0.943858 0 0.33035
+  outer loop
+  vertex 7 0 0
+  vertex 3.5 -2.5 10
+  vertex 7 -5 0
+  endloop
+ endfacet
+endsolid SimplePyramid

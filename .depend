@@ -1,0 +1,20 @@
+katana.o: src/katana.cc src/datastructures.h src/config.h src/stl.h \
+ src/gcode.h src/slicer.h src/katana.h src/debug.h src/infill.h
+config.o: src/config.cc src/config.h
+stl.o: src/stl.cc src/datastructures.h src/config.h src/katana.h \
+ src/debug.h src/slicer.h src/infill.h src/gcode.h src/stl.h
+gcode.o: src/gcode.cc src/datastructures.h src/config.h src/katana.h \
+ src/debug.h src/slicer.h src/infill.h src/gcode.h src/stl.h
+slicer.o: src/slicer.cc src/datastructures.h src/config.h src/stl.h \
+ src/gcode.h src/slicer.h src/katana.h src/debug.h src/infill.h
+infill.o: src/infill.cc src/datastructures.h src/config.h src/stl.h \
+ src/katana.h src/debug.h src/slicer.h src/infill.h src/gcode.h
+katana.o: src/katana.h src/config.h src/datastructures.h src/debug.h \
+ src/slicer.h src/infill.h src/gcode.h src/stl.h
+config.o: src/config.h
+stl.o: src/stl.h src/datastructures.h
+gcode.o: src/gcode.h src/datastructures.h
+slicer.o: src/slicer.h src/datastructures.h
+infill.o: src/infill.h src/datastructures.h
+datastructures.o: src/datastructures.h
+debug.o: src/debug.h
